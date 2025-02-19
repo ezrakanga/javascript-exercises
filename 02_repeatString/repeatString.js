@@ -9,7 +9,7 @@ const repeatString = function(string, num) {
   }
   return result;
 };
-console.log(repeatString('hey'.repeat()));
+console.log(repeatString('', 10));
 
 
 // Do not edit below this line
