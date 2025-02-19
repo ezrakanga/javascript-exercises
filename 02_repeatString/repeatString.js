@@ -5,7 +5,7 @@ const repeatString = function(string, num) {
   }
   return result;
 };
-console.log(repeatString('hi', 1));
+console.log(repeatString('bye', 0));
 
 
 // Do not edit below this line
