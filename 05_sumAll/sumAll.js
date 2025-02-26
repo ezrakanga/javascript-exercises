@@ -6,7 +6,8 @@ const sumAll = function(a , b) {
 
   if (
     a < 0 || b < 0 ||  //checks to make sure the numbers are positive
-    !Number.isInteger(a) || !Number.isInteger(b)  //checks whether the number is an integer
+    !Number.isInteger(a) || !Number.isInteger(b) ||  //checks whether the number is an integer
+    typeof a !== `number` || typeof b !== `number`   //checks if the data passed is strictly equals to number data type
   ) {
     return `ERROR`;
   }
