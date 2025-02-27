@@ -9,6 +9,8 @@ const convertToCelsius = function(fahrenheit) {
 const convertToFahrenheit = function(celsius) {
   let fahrenheit = 0;
   fahrenheit = (celsius * 9 / 5) + 32;
+  fahrenheit = fahrenheit.toFixed(1);
+  fahrenheit = parseFloat(fahrenheit);
   return fahrenheit;
 };
 
