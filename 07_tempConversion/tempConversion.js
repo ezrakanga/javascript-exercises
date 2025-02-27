@@ -1,6 +1,8 @@
 const convertToCelsius = function(fahrenheit) {
   let celsius = 0;
-  celsius = (fahrenheit - 32) * 5 / 9;
+  celsius = (fahrenheit - 32) * 5 / 9;  //converts fahrenheit to celsius
+  celsius = celsius.toFixed(1);  //makes it to 1 decimal place and converts it to a string
+  celsius = parseFloat(celsius);  //converts the string to a number
   return celsius;
 };
 
