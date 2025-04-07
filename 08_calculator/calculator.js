@@ -28,8 +28,8 @@ const multiply = function(arr) {
   return total;
 };
 
-const power = function() {
-	
+const power = function(a, b) {
+	return a ** b
 };
 
 const factorial = function() {
