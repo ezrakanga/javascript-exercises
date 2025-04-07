@@ -32,8 +32,21 @@ const power = function(a, b) {
 	return a ** b
 };
 
-const factorial = function() {
-	
+const factorial = function(num) {
+	let total = num;
+
+  // create a condition
+  if (num == 0 || num == 1) {
+    return 1;
+  }
+
+  // create a while loop
+  while (num > 1) {
+    num--;
+    total *= num;
+  }
+
+  return total;
 };
 
 // Do not edit below this line
