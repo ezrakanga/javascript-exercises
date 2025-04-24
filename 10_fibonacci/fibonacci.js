@@ -4,7 +4,9 @@ const fibonacci = function(num) {
   let num2 = 1;
   let sum;
 
-  if (num === 0) {
+  if (num < 0) {
+    return 'OOPS';
+  } else if (num === 0) {
     return num1;
   } else if (num === 1) {
     return num2;
